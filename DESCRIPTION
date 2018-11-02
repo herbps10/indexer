@@ -1,0 +1,14 @@
+Package: indexer
+Type: Package
+Title: File handling under R
+Version: 0.0.1
+Date: 2018-08-22
+Authors@R: person("Krzysztof", "Sakrejda", email = "k@fawkes.io", role = c("cre", "aut"))
+Description: File handling under R
+License: GPL-3
+Depends: 
+  checkmate
+RoxygenNote: 6.1.0
+Suggests: 
+    lintr,
+    testthat
