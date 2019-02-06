@@ -11,5 +11,5 @@ find_file <- function(root, name, complete = TRUE) {
     name = paste0(name, collapse = '|')
   path = dir(path = root, pattern = name, recursive=TRUE, full.names=TRUE)
   normalized_path = normalizePath(path)
-  return(normalized_path)
+  return(unique(normalized_path))
 }
